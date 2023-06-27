@@ -3,9 +3,9 @@
 // M = 1; N = 5. -> ""1, 2, 3, 4, 5""
 // M = 4; N = 8. -> ""4, 5, 6, 7, 8""
 
-Console.Write("Введи N: ");
+Console.Write("Введите N: ");
 int N = Convert.ToInt16(Console.ReadLine());
-Console.Write("Введи M: ");
+Console.Write("Введите M: ");
 int M = Convert.ToInt16(Console.ReadLine());
 Console.WriteLine($"N={N}, M={M}");
 if (M > N)
